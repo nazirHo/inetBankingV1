@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="25.017" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ISMA\eclipse-workspace\inetBankingV1\target\test-classes;C:\Users\ISMA\eclipse-workspace\inetBankingV1\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin"/>
+    <property name="sun.java.command" value="C:\WINDOWS\TEMP\surefire8085612642059574873\surefirebooter17483093843255937954.jar C:\Windows\Temp\surefire8085612642059574873 2020-06-09T13-26-17_368-jvmRun1 surefire7786399865330789327tmp surefire_017867882808650546581tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ISMA\eclipse-workspace\inetBankingV1\target\test-classes;C:\Users\ISMA\eclipse-workspace\inetBankingV1\target\classes;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\aventstack\extentreports\3.1.2\extentreports-3.1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\jsoup\jsoup\1.9.2\jsoup-1.9.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\WINDOWS\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-01-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ISMA\eclipse-workspace\inetBankingV1"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\WINDOWS\TEMP\surefire8085612642059574873\surefirebooter17483093843255937954.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.2+8"/>
+    <property name="user.name" value="DESKTOP-40FF2C0$"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="java.version" value="13.0.2"/>
+    <property name="user.dir" value="C:\Users\ISMA\eclipse-workspace\inetBankingV1"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-13.0.2\bin;C:\apache-maven-3.6.3\bin;C:\apache-maven-3.6.3\\bin;C:\apache-maven-3.6.3\lib;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.2+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="addNewCustomer" classname="com.inetbanking.testCases.TC_AddCustomerTest_003" time="17.905">
+    <failure message="Dismissed user prompt dialog: please fill all fields: &#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-40FF2C0&apos;, ip: &apos;192.168.0.13&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;13.0.2&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:headless: false, moz:processID: 3984, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: d54f3fd6-8788-4630-9472-dd7826a2b37a" type="org.openqa.selenium.UnhandledAlertException">org.openqa.selenium.UnhandledAlertException: 
+Dismissed user prompt dialog: please fill all fields: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-40FF2C0', ip: '192.168.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, capabilities: {desiredCapabilities: {acceptInsecureCerts: true, browserName: firefox}}, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:headless: false, moz:processID: 3984, moz:profile: C:\Windows\Temp\rust_mozpro..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d54f3fd6-8788-4630-9472-dd7826a2b37a
+	at com.inetbanking.testCases.TC_AddCustomerTest_003.addNewCustomer(TC_AddCustomerTest_003.java:39)
+</failure>
+    <system-out><![CDATA[INFO  ebanking - Username is provided
+INFO  ebanking - Password is provided
+INFO  ebanking - Providing customer details...........
+INFO  ebanking - Validation started.....
+]]></system-out>
+    <system-err><![CDATA[1591723579383	geckodriver	INFO	geckodriver 0.21.0
+1591723579391	geckodriver	INFO	Listening on 127.0.0.1:47263
+1591723580057	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\WINDOWS\\TEMP\\rust_mozprofile.cyPOVEnUm4g0"
+1591723580419	Marionette	TRACE	Marionette enabled
+1591723580445	Marionette	TRACE	Received observer notification toplevel-window-ready
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1591723581786	Marionette	TRACE	Received observer notification marionette-startup-requested
+1591723581786	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1591723581856	Marionette	TRACE	All scripts recorded.
+1591723581856	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1591723581857	Marionette	DEBUG	Setting recommended pref apz.content_response_timeout to 60000
+1591723581857	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1591723581857	Marionette	DEBUG	Setting recommended pref browser.download.panel.shown to true
+1591723581857	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1591723581858	Marionette	DEBUG	Setting recommended pref browser.pagethumbnails.capturing_disabled to true
+1591723581858	Marionette	DEBUG	Setting recommended pref browser.search.update to false
+1591723581859	Marionette	DEBUG	Setting recommended pref browser.tabs.disableBackgroundZombification to false
+1591723581859	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1591723581859	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1591723581859	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnCloseOtherTabs to false
+1591723581859	Marionette	DEBUG	Setting recommended pref browser.tabs.warnOnOpen to false
+1591723581859	Marionette	DEBUG	Setting recommended pref browser.usedOnWindows10.introURL to 
+1591723581859	Marionette	DEBUG	Setting recommended pref browser.urlbar.suggest.searches to false
+1591723581860	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1591723581861	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1591723581861	Marionette	DEBUG	Setting recommended pref dom.disable_open_during_load to false
+1591723581861	Marionette	DEBUG	Setting recommended pref dom.file.createInChild to true
+1591723581861	Marionette	DEBUG	Setting recommended pref dom.max_chrome_script_run_time to 0
+1591723581861	Marionette	DEBUG	Setting recommended pref dom.max_script_run_time to 0
+1591723581862	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1591723581862	Marionette	DEBUG	Setting recommended pref extensions.getAddons.cache.enabled to false
+1591723581862	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1591723581863	Marionette	DEBUG	Setting recommended pref network.http.prompt-temp-redirect to false
+1591723581863	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1591723581863	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1591723581863	Marionette	DEBUG	Setting recommended pref security.fileuri.strict_origin_policy to false
+1591723581863	Marionette	DEBUG	Setting recommended pref security.notification_enable_delay to 0
+1591723581863	Marionette	DEBUG	Setting recommended pref signon.autofillForms to false
+1591723581868	Marionette	DEBUG	Setting recommended pref signon.rememberSignons to false
+1591723581870	Marionette	DEBUG	Setting recommended pref toolkit.cosmeticAnimations.enabled to false
+1591723581919	Marionette	INFO	Listening on port 55401
+1591723581919	Marionette	DEBUG	Marionette is listening
+1591723582073	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:55402
+1591723582074	Marionette	DEBUG	0 -> [0,1,"WebDriver:NewSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1591723582074	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591723582096	Marionette	TRACE	[10] Frame script loaded
+1591723582098	Marionette	TRACE	[10] Frame script registered
+1591723582103	Marionette	DEBUG	0 <- [1,1,null,{"sessionId":"d54f3fd6-8788-4630-9472-dd7826a2b37a","capabilities":{"browserName":"firefox","browserVersion":"77.0. ... alse,"moz:webdriverClick":true,"capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}}]
+Jun 09, 2020 1:26:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1591723582154	Marionette	DEBUG	0 -> [0,2,"WebDriver:SetTimeouts",{"implicit":2000}]
+1591723582155	Marionette	DEBUG	0 <- [1,2,null,{"value":null}]
+1591723582161	Marionette	DEBUG	0 -> [0,3,"WebDriver:Navigate",{"url":"http://demo.guru99.com/v4/index.php"}]
+1591723582168	Marionette	TRACE	[10] Received DOM event beforeunload for about:blank
+1591723582388	Marionette	TRACE	[10] Received DOM event pagehide for about:blank
+1591723584076	Marionette	TRACE	[10] Received DOM event DOMContentLoaded for http://demo.guru99.com/v4/index.php
+1591723584432	Marionette	TRACE	[10] Received DOM event pageshow for http://demo.guru99.com/v4/index.php
+1591723584435	Marionette	DEBUG	0 <- [1,3,null,{"value":null}]
+1591723584478	Marionette	DEBUG	0 -> [0,4,"WebDriver:FindElement",{"using":"css selector","value":"*[name='uid']"}]
+1591723584544	Marionette	DEBUG	0 <- [1,4,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"cab1be6b-bfea-4736-8635-66ee744b36d3"}}]
+1591723584559	Marionette	DEBUG	0 -> [0,5,"WebDriver:ElementSendKeys",{"id":"cab1be6b-bfea-4736-8635-66ee744b36d3","text":"mngr262941","value":["m","n","g","r","2","6","2","9","4","1"]}]
+1591723584582	Marionette	DEBUG	0 <- [1,5,null,{"value":null}]
+1591723584597	Marionette	DEBUG	0 -> [0,6,"WebDriver:FindElement",{"using":"css selector","value":"*[name='password']"}]
+1591723584601	Marionette	DEBUG	0 <- [1,6,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"258096bd-79a2-43af-a4ad-4782d7cfbde2"}}]
+1591723584608	Marionette	DEBUG	0 -> [0,7,"WebDriver:ElementSendKeys",{"id":"258096bd-79a2-43af-a4ad-4782d7cfbde2","text":"hepEdud","value":["h","e","p","E","d","u","d"]}]
+1591723584622	Marionette	DEBUG	0 <- [1,7,null,{"value":null}]
+1591723584628	Marionette	DEBUG	0 -> [0,8,"WebDriver:FindElement",{"using":"css selector","value":"*[name='btnLogin']"}]
+1591723584631	Marionette	DEBUG	0 <- [1,8,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ea221102-60c2-4236-8562-79848c6d44c2"}}]
+1591723584640	Marionette	DEBUG	0 -> [0,9,"WebDriver:ElementClick",{"id":"ea221102-60c2-4236-8562-79848c6d44c2"}]
+1591723584662	Marionette	TRACE	[10] Received DOM event beforeunload for http://demo.guru99.com/v4/index.php
+1591723584782	Marionette	TRACE	[10] Received DOM event pagehide for http://demo.guru99.com/v4/index.php
+1591723584785	Marionette	TRACE	[10] Received DOM event unload for http://demo.guru99.com/v4/index.php
+JavaScript error: http://demo.guru99.com/v4/index.php, line 1: SyntaxError: missing ) after argument list
+1591723584801	Marionette	TRACE	[10] Received DOM event beforeunload for http://demo.guru99.com/v4/index.php
+1591723584803	Marionette	TRACE	[10] Received DOM event pageshow for http://demo.guru99.com/v4/index.php
+1591723584824	Marionette	TRACE	[10] Received DOM event DOMContentLoaded for http://demo.guru99.com/v4/index.php
+1591723584836	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723584837	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723584838	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723584838	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723584838	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723584838	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723584838	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723584964	Marionette	TRACE	[10] Received DOM event unload for http://demo.guru99.com/v4/index.php
+1591723585103	Marionette	TRACE	[10] Received DOM event DOMContentLoaded for http://demo.guru99.com/v4/manager/Managerhomepage.php
+1591723585269	Marionette	TRACE	[10] Received DOM event pageshow for http://demo.guru99.com/v4/manager/Managerhomepage.php
+1591723585270	Marionette	DEBUG	0 <- [1,9,null,{"value":null}]
+1591723588280	Marionette	DEBUG	0 -> [0,10,"WebDriver:FindElement",{"using":"xpath","value":"/html/body/div[3]/div/ul/li[2]/a"}]
+1591723588281	Marionette	DEBUG	0 <- [1,10,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1ad0ef5f-c510-4e2d-a118-70bf22fe599c"}}]
+1591723588287	Marionette	DEBUG	0 -> [0,11,"WebDriver:ElementClick",{"id":"1ad0ef5f-c510-4e2d-a118-70bf22fe599c"}]
+1591723588303	Marionette	TRACE	[10] Received DOM event beforeunload for http://demo.guru99.com/v4/manager/Managerhomepage.php
+1591723588397	Marionette	TRACE	[10] Received DOM event pagehide for http://demo.guru99.com/v4/manager/Managerhomepage.php
+1591723588398	Marionette	TRACE	[10] Received DOM event unload for http://demo.guru99.com/v4/manager/Managerhomepage.php
+JavaScript error: https://eus.rubiconproject.com/usync.html, line 12: SecurityError: The operation is insecure.
+1591723588485	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723588487	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723588487	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723588487	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723588487	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723588487	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723588487	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723588488	Marionette	TRACE	[10] Received observer notification outer-window-destroyed
+1591723588533	Marionette	TRACE	[10] Received DOM event DOMContentLoaded for http://demo.guru99.com/v4/manager/addcustomerpage.php
+1591723588728	Marionette	TRACE	[10] Received DOM event pageshow for http://demo.guru99.com/v4/manager/addcustomerpage.php
+1591723588729	Marionette	DEBUG	0 <- [1,11,null,{"value":null}]
+1591723588737	Marionette	DEBUG	0 -> [0,12,"WebDriver:FindElement",{"using":"css selector","value":"*[name='name']"}]
+1591723588739	Marionette	DEBUG	0 <- [1,12,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"10d571cf-7518-4ebb-ad35-8c0298883d68"}}]
+1591723588747	Marionette	DEBUG	0 -> [0,13,"WebDriver:ElementSendKeys",{"id":"10d571cf-7518-4ebb-ad35-8c0298883d68","text":"Isma","value":["I","s","m","a"]}]
+1591723588762	Marionette	DEBUG	0 <- [1,13,null,{"value":null}]
+1591723588769	Marionette	DEBUG	0 -> [0,14,"WebDriver:FindElement",{"using":"css selector","value":"*[name='rad1']"}]
+1591723588770	Marionette	DEBUG	0 <- [1,14,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"83a2f985-d1c2-40d8-af1e-b867c3258508"}}]
+1591723588775	Marionette	DEBUG	0 -> [0,15,"WebDriver:ElementClick",{"id":"83a2f985-d1c2-40d8-af1e-b867c3258508"}]
+1591723588990	Marionette	DEBUG	[10] Canceled page load listener because no navigation has been detected
+1591723588991	Marionette	DEBUG	0 <- [1,15,null,{"value":null}]
+1591723593996	Marionette	DEBUG	0 -> [0,16,"WebDriver:FindElement",{"using":"css selector","value":"#dob"}]
+1591723593999	Marionette	DEBUG	0 <- [1,16,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"1f8d2a5c-c1b6-41b9-a831-4b00572564dc"}}]
+1591723594005	Marionette	DEBUG	0 -> [0,17,"WebDriver:ElementSendKeys",{"id":"1f8d2a5c-c1b6-41b9-a831-4b00572564dc","text":"01","value":["0","1"]}]
+1591723594014	Marionette	DEBUG	0 <- [1,17,null,{"value":null}]
+1591723594018	Marionette	DEBUG	0 -> [0,18,"WebDriver:ElementSendKeys",{"id":"1f8d2a5c-c1b6-41b9-a831-4b00572564dc","text":"10","value":["1","0"]}]
+1591723594026	Marionette	DEBUG	0 <- [1,18,null,{"value":null}]
+1591723594030	Marionette	DEBUG	0 -> [0,19,"WebDriver:ElementSendKeys",{"id":"1f8d2a5c-c1b6-41b9-a831-4b00572564dc","text":"2001","value":["2","0","0","1"]}]
+1591723594034	Marionette	DEBUG	0 <- [1,19,null,{"value":null}]
+1591723599042	Marionette	DEBUG	0 -> [0,20,"WebDriver:FindElement",{"using":"css selector","value":"*[name='addr']"}]
+1591723599045	Marionette	DEBUG	0 <- [1,20,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"0108e7d4-ee6e-4bba-9a18-fa882122ffa0"}}]
+1591723599050	Marionette	DEBUG	0 -> [0,21,"WebDriver:ElementSendKeys",{"id":"0108e7d4-ee6e-4bba-9a18-fa882122ffa0","text":"usa","value":["u","s","a"]}]
+1591723599067	Marionette	DEBUG	0 <- [1,21,null,{"value":null}]
+1591723599073	Marionette	DEBUG	0 -> [0,22,"WebDriver:FindElement",{"using":"css selector","value":"*[name='city']"}]
+1591723599079	Marionette	DEBUG	0 <- [1,22,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"9aa1ada4-b481-4832-b39d-be84391b9d63"}}]
+1591723599086	Marionette	DEBUG	0 -> [0,23,"WebDriver:ElementSendKeys",{"id":"9aa1ada4-b481-4832-b39d-be84391b9d63","text":"Tela","value":["T","e","l","a"]}]
+1591723599099	Marionette	DEBUG	0 <- [1,23,null,{"value":null}]
+1591723599126	Marionette	DEBUG	0 -> [0,24,"WebDriver:FindElement",{"using":"css selector","value":"*[name='state']"}]
+1591723599128	Marionette	DEBUG	0 <- [1,24,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"2ab5d541-da2d-4a7d-8ae4-f972542e08b4"}}]
+1591723599133	Marionette	DEBUG	0 -> [0,25,"WebDriver:ElementSendKeys",{"id":"2ab5d541-da2d-4a7d-8ae4-f972542e08b4","text":"pa","value":["p","a"]}]
+1591723599145	Marionette	DEBUG	0 <- [1,25,null,{"value":null}]
+1591723599150	Marionette	DEBUG	0 -> [0,26,"WebDriver:FindElement",{"using":"css selector","value":"*[name='pinno']"}]
+1591723599153	Marionette	DEBUG	0 <- [1,26,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"efb944dd-ed8b-4611-90c5-658a73596d41"}}]
+1591723599158	Marionette	DEBUG	0 -> [0,27,"WebDriver:ElementSendKeys",{"id":"efb944dd-ed8b-4611-90c5-658a73596d41","text":"852753","value":["8","5","2","7","5","3"]}]
+1591723599172	Marionette	DEBUG	0 <- [1,27,null,{"value":null}]
+1591723599175	Marionette	DEBUG	0 -> [0,28,"WebDriver:FindElement",{"using":"css selector","value":"*[name='telephoneno']"}]
+1591723599180	Marionette	DEBUG	0 <- [1,28,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"ade864b2-114a-4e4b-8a9e-1056753dd384"}}]
+1591723599184	Marionette	DEBUG	0 -> [0,29,"WebDriver:ElementSendKeys",{"id":"ade864b2-114a-4e4b-8a9e-1056753dd384","text":"7539518520","value":["7","5","3","9","5","1","8","5","2","0"]}]
+1591723599200	Marionette	DEBUG	0 <- [1,29,null,{"value":null}]
+1591723599207	Marionette	DEBUG	0 -> [0,30,"WebDriver:FindElement",{"using":"css selector","value":"*[name='emailid']"}]
+1591723599210	Marionette	DEBUG	0 <- [1,30,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"fc916b0c-3b6e-4f6b-ae09-b1970bb3fc9a"}}]
+1591723599215	Marionette	DEBUG	0 -> [0,31,"WebDriver:ElementSendKeys",{"id":"fc916b0c-3b6e-4f6b-ae09-b1970bb3fc9a","text":"elNIZRgQ@gmail.com","value":["e","l","N","I","Z","R","g","Q","@","g","m","a","i","l",".","c","o","m"]}]
+1591723599240	Marionette	DEBUG	0 <- [1,31,null,{"value":null}]
+1591723599245	Marionette	DEBUG	0 -> [0,32,"WebDriver:FindElement",{"using":"css selector","value":"*[name='password']"}]
+1591723599247	Marionette	DEBUG	0 <- [1,32,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"e6ba8fe8-437b-4785-ad3c-c03e6321fc36"}}]
+1591723599252	Marionette	DEBUG	0 -> [0,33,"WebDriver:ElementSendKeys",{"id":"e6ba8fe8-437b-4785-ad3c-c03e6321fc36","text":"asdfghjkl","value":["a","s","d","f","g","h","j","k","l"]}]
+1591723599266	Marionette	DEBUG	0 <- [1,33,null,{"value":null}]
+1591723599271	Marionette	DEBUG	0 -> [0,34,"WebDriver:FindElement",{"using":"css selector","value":"*[name='sub']"}]
+1591723599274	Marionette	DEBUG	0 <- [1,34,null,{"value":{"element-6066-11e4-a52e-4f735466cecf":"83ad9b29-b89f-4cc5-800c-ede80d1bc15e"}}]
+1591723599278	Marionette	DEBUG	0 -> [0,35,"WebDriver:ElementClick",{"id":"83ad9b29-b89f-4cc5-800c-ede80d1bc15e"}]
+1591723599302	Marionette	TRACE	Received observer notification tabmodal-dialog-loaded
+1591723599305	Marionette	DEBUG	0 <- [1,35,null,{"value":null}]
+1591723599784	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:245:13
+TimedPromise@chrome://marionette/content/sync.js:230:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:416:10
+webdriverClickElement@chrome://marionette/content/interaction.js:182:31
+1591723602310	Marionette	DEBUG	0 -> [0,36,"WebDriver:ExecuteScript",{"args":[],"newSandbox":false,"script":"var source = document.documentElement.outerHTML; \nif ... ) { source = new XMLSerializer().serializeToString(document); }\nreturn source;","scriptTimeout":null,"specialPowers":false}]
+1591723602311	Marionette	TRACE	Received event DOMModalDialogClosed
+1591723602313	Marionette	TRACE	Received DOM event DOMModalDialogClosed for [object XULFrameElement]
+1591723602326	Marionette	DEBUG	0 <- [1,36,{"error":"unexpected alert open","message":"Dismissed user prompt dialog: please fill all fields","stacktrace":"WebDriv ... ette/content/error.js:460:5\nGeckoDriver.prototype._handleUserPrompts@chrome://marionette/content/driver.js:3417:13\n"},null]
+]]></system-err>
+  </testcase>
+</testsuite>
