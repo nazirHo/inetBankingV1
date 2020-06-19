@@ -22,6 +22,7 @@ public class Reporting extends TestListenerAdapter {
 	public ExtentHtmlReporter htmlReporter;
 	public ExtentReports extent;
 	public ExtentTest logger;
+	public ExtentHtmlReporter htmlReporter;
 	
 	public void onStart(ITestContext testContext) {
 		String timeStamp=new SimpleDateFormat("YYYY.MM.dd.HH.mm.ss").format(new Date());//time stamp
